@@ -9,7 +9,7 @@ let package = Package(
         .iOS(.v11)
     ],
     products: [
-        .library(name: "TencentOpenAPI", targets: ["TencentOpenAPI"]),
+        .library(name: "TencentOpenAPI", type: .dynamic, targets: ["TencentOpenAPI"]),
     ],
     targets: [
         .binaryTarget(
