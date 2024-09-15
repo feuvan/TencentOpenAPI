@@ -6,10 +6,10 @@ import PackageDescription
 let package = Package(
     name: "TencentOpenAPI",
     platforms: [
-        .iOS(.v11)
+        .iOS(.v12)
     ],
     products: [
-        .library(name: "TencentOpenAPI", type: .dynamic, targets: ["TencentOpenAPI"]),
+        .library(name: "TencentOpenAPI", targets: ["TencentOpenAPI"]),
     ],
     targets: [
         .binaryTarget(
